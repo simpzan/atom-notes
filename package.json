@@ -5,6 +5,7 @@
   "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
+    "atom-workspace": "notes:focusSearchBar",
     "atom-workspace": "notes:toggle"
   },
   "repository": "https://github.com/atom/notes",
