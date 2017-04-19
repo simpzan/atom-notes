@@ -1,4 +1,7 @@
 {
+    ".notes": {
+        "cmd-enter": "notes:newNote"
+    },
   "atom-workspace": {
     "ctrl-alt-l": "notes:focusSearchBar",
     "ctrl-alt-o": "notes:toggle"
