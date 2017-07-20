@@ -3,7 +3,26 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import "syntax-variables";
 
 .notes {
 }
 
+atom-text-editor {
+
+    .current-result2  .region  {
+        border-radius: @component-border-radius;
+        border: 2px solid red;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+
+    .find-result2  .region {
+        background-color: transparent;
+        border-radius: @component-border-radius;
+        border: 2px solid green;
+        box-sizing: border-box;
+        z-index: 0;
+    }
+
+}
